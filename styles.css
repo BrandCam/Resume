@@ -90,6 +90,11 @@ select {
  light black text = #2F2F2F
     */
 
+/* GREY SCALE
+    yellow = #4b4a45
+    gray = #111
+*/
+
 /* 
 FONTS
  font-family: 'Montserrat', sans-serif;
@@ -98,14 +103,14 @@ FONTS
 /* END RESET */
 .header-wrap {
     display: flex;
-    border-bottom: 3px solid #bf923c;
+    border-bottom: 3px solid #4b4a45;
 }
 .body-wrap {
     display: flex;
 }
 .left-section {
-    border-right: 3px solid #bf923c;
-    background-color: #464646;
+    border-right: 3px solid #4b4a45;
+    background-color: #111;
     width: 35%;
     display: flex;
     flex-direction: column;
@@ -156,7 +161,7 @@ FONTS
     position: relative;
     width: 25px;
     height: 14.43px;
-    background-color: #bf923c;
+    background-color: #4b4a45;
     margin-left: 15px;
 }
 .hexagon::before,
@@ -168,12 +173,12 @@ FONTS
 }
 .hexagon::before {
     bottom: 100%;
-    border-bottom: 7.22px solid #bf923c;
+    border-bottom: 7.22px solid #4b4a45;
 }
 .hexagon::after {
     transform: translateZ(-1px);
     top: 100%;
-    border-top: 7.22px solid #bf923c;
+    border-top: 7.22px solid #4b4a45;
 }
 img {
     width: 20px;
@@ -214,7 +219,7 @@ img {
     margin-bottom: 0;
     align-self: flex-end;
     width: 88%;
-    background-color: #464646;
+    background-color: #111;
     font-size: 1.8rem;
     display: flex;
     flex-direction: column;
@@ -228,7 +233,7 @@ img {
 }
 .title div h1:nth-child(2) {
     margin: -1.5rem 0 20px 0;
-    color: #bf923c;
+    color: #4b4a45;
 }
 
 /* BODY*/
@@ -241,7 +246,7 @@ img {
 .body-left h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
-    color: #bf923c;
+    color: #4b4a45;
     text-align: center;
     margin-top: 30px;
 }
@@ -288,7 +293,7 @@ img {
     margin-top: 20px;
 }
 .body-right a {
-    color: #bf923c;
+    color: #4b4a45;
 }
 #port div {
     display: flex;
@@ -309,11 +314,11 @@ img {
     margin: 5px 0 0 0;
 }
 #projects {
-    border-bottom: 3px solid #bf923c;
+    border-bottom: 3px solid #4b4a45;
     margin-bottom: 10px;
 }
 #career {
-    border-bottom: 3px solid #bf923c;
+    border-bottom: 3px solid #4b4a45;
 }
 .job-item strong {
     font-size: 1rem;
@@ -324,7 +329,7 @@ img {
     font-weight: 600;
 }
 .project-item .project-title {
-    border-bottom: 1px solid #bf923c;
+    border-bottom: 1px solid #4b4a45;
 }
 .project-item .body-left-item-content {
     margin-left: 10px;
